@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule updates
-  schedule: [{cron: "0 1 * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
   workflow_dispatch:
@@ -29,7 +29,7 @@ jobs:
 
           # Plugins
           plugin_activity: yes
-          plugin_activity_limit: 5
+          plugin_activity_limit: 10
           plugin_activity_days: 0
           plugin_activity_filter: all
           plugin_activity_timestamps: True
