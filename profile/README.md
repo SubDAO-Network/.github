@@ -1,1 +1,3 @@
-![](https://raw.githubusercontent.com/SubDAO-Network/.github/main/github-metrics.svg)
+SubDAO Network is a cross-chain DAO platform.
+
+[Click here](https://github.com/SubDAO-Network/.github) to see the development progress
